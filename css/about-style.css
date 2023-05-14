@@ -1,0 +1,110 @@
+.nav-container{
+    margin-top:35px;
+    position:relative;
+}
+
+
+.logo{
+    float:left;
+    margin-left:280px;
+}
+
+.menu{
+    float:right;
+    margin-right:280px;
+    line-height: 70px;
+    font-size: 50px;
+    /* text-transform: uppercase; */
+    font-family: "Ms Madi";
+    font-weight: 900;
+    text-decoration:none;
+    /* z-index:999999; */
+    
+}
+
+.menu ul li a{
+    list-style-type: none;
+    text-decoration:none;
+    padding-left:70px;
+    color:#F94099;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+#image-me{
+    float:left;
+    margin-left:350px;
+    display:block;
+    margin-top:150px;
+
+}
+
+#about-content{
+    float:right;
+    display:block;
+    margin-right:400px;
+    margin-top:120px;
+    font-family: 'PT Sans', sans-serif;
+    text-align:right;
+}
+
+#about-content h2{
+    font-size:35px;
+}
+
+#about-content p{
+    font-size:20px;
+}
+
+#about-content h3{
+    font-size:25px;
+}
+
+.contact-icon{
+    float:right;
+    padding-right:25px;
+
+}
+
+.contact .contact-icon span a{
+    text-decoration:none;
+    font-size:20px;
+    /* padding-top:-15px; */
+}
+
+.contact{
+    text-decoration:none;
+}
+
+.contact-icon a img{
+    text-decoration:none;
+    padding-right:10px;
+}
+
+.icon3{
+    margin-top:-10px;
+}
+
+
+.footer-space{
+    height:200px;
+    width:100%;
+    clear:both;
+}
+
+footer{
+    font-family: 'PT Sans', sans-serif;
+    font-size:15px;
+    text-align: center;
+    justify-content:center;
+    align-items:center;
+    color:#F94099;
+}
+
+.footer-under-space{
+    height:80px;
+    width:100%;
+    clear:both;
+}

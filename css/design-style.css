@@ -1,0 +1,525 @@
+.nav-container{
+    margin-top:30px;
+    position:relative;
+}
+
+.logo{
+    float:left;
+    margin-left:400px;
+}
+
+.menu{
+    float:right;
+    margin-right:400px;
+    line-height: 90px;
+    font-size: 25px;
+    /* text-transform: uppercase; */
+    font-family: "Poppins";
+    font-weight: 400;
+    text-decoration:none;
+    /* z-index:999999; */
+    
+}
+
+.menu ul li a{
+    list-style-type: none;
+    text-decoration:none;
+    padding-left:50px;
+    color:#F94099;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.gradient-dot{
+    background-image:radial-gradient(circle, #FA51A2, #FFBAD7);
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    margin-left:400px;
+    margin-top:270px;
+}
+
+
+.gradient-dot-1{
+    background-image:radial-gradient(circle, #FA51A2, #FFBAD7);
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    margin-left:280px;
+    margin-top:50px;
+}
+
+.project-subtitle span p{
+    padding-top:270px;
+    margin-left:400px;
+    padding-left:120px;
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+
+.project-subtitle span a{
+    margin-top:-30px;
+    margin-left:400px;
+    padding-left:120px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    display: block;
+    position: absolute;
+}
+
+.reg-subtitle span p{
+    padding-top:70px;
+    margin-left:280px;
+    padding-left:120px;
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+
+.card{
+    position:relative;
+    width:300px;
+    height:350px;
+    margin:20px;
+    /* background:#333; */
+    border-radius:20px;
+    transition:0.5s;
+    transition-delay:0.5s;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin-left:400px;
+    margin-top:100px;
+    text-decoration:none;
+
+}
+
+.card-a{
+    text-decoration:none;
+}
+
+.card-left{
+    margin-left:900px;
+    margin-top:-370px;
+}
+
+.card:hover{
+    width:400px;
+    transition-delay:0s;
+}
+
+.card .circle{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:20px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card .circle::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:var(--clr);
+    clip-path: circle(120px at center);
+    transition:0.5s;
+}
+
+.card:hover .circle::before{
+    clip-path: circle(400px at center);
+
+}
+
+.card .circle .project-logo{
+    position:relative;
+    width:200px;
+    transition:0.5s;
+    transition-delay:0.5s;
+}
+
+.card .circle .logo-small{
+    width:150px;
+}
+
+.card:hover .circle .project-logo{
+    transform:scale(0);
+    transition-delay:0s;
+
+}
+
+.content{
+    position:relative;
+    width:55%;
+    left:35%;
+    padding: 20px 40px 20px 20px;
+    opacity: 0;
+    transition:0.5s;
+    visibility:hidden;
+    text-decoration:none;
+}
+
+.card:hover .content{
+    right:0;
+    opacity:1;
+    visibility:visible;
+    transition-delay:0.5s;
+}
+
+.card .content p{
+    text-align:right;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color:white;
+    text-decoration:none;
+
+}
+
+.card .content h2{
+    text-align:right;
+    font-family: 'Poppins';
+    font-size: 30px;
+    color:white;
+    text-decoration:none;
+
+}
+
+.card .project_image{
+    position:absolute;
+    top:50%;
+    left:18%;
+    transform:translate(-50%, -50%) scale(0);
+    height:250px;
+    /* width:100px; */
+    transition:0.5s;
+    transition-delay:0s;
+}
+
+.card .image-bigger{
+    height:350px;
+    margin-top:-120px;
+    margin-left:50px;
+}
+
+.card .image-smaller{
+    height:190px;
+    margin-top:-10px;
+    margin-left:0px;
+}
+
+
+.card:hover .project_image{
+    left:18%;
+    transform:translate(-50%, -50%) scale(1);
+    transition-delay:0.5s;
+}
+
+.card .image-right{
+    left:100%;
+    top:57%;
+}
+
+.card:hover .image-right{
+    left:40%;
+    transform:translate(-50%, -50%) scale(1);
+    transition-delay:0.5s;
+}
+
+
+.content-right{
+    position:relative;
+    width:50%;
+    left:5%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    transition:0.5s;
+    visibility:hidden;
+}
+
+.card:hover .content-right{
+    left:0;
+    opacity:1;
+    visibility:visible;
+    transition-delay:0.5s;
+}
+
+.card .content-right p{
+    text-align:left;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color:white;
+}
+
+.card .content-right h2{
+    text-align:left;
+    font-family: 'Poppins';
+    font-size: 30px;
+    color:white;
+}
+
+.card .project_image-right{
+    position:absolute;
+    top:50%;
+    left:85%;
+    transform:translate(-50%, -50%) scale(0);
+    height:250px;
+    /* width:100px; */
+    transition:0.5s;
+    transition-delay:0s;
+}
+
+.card:hover .project_image-right{
+    left:85%;
+    transform:translate(-50%, -50%) scale(1);
+    transition-delay:0.5s;
+}
+
+
+.footer-space{
+    height:200px;
+    width:100%;
+    clear:both;
+}
+
+footer{
+    font-family: 'PT Sans', sans-serif;
+    font-size:15px;
+    text-align: center;
+    justify-content:center;
+    align-items:center;
+    color:#F94099;
+}
+
+.footer-under-space{
+    height:80px;
+    width:100%;
+    clear:both;
+}
+
+.dot3{
+    margin-top:170px;
+}
+
+.drawings p{
+    margin-top:-100px;
+}
+
+.subtitleTwo{
+    float:left;
+}
+
+
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#slider{
+  justify-content:center;
+  align-items:center;
+}
+
+.wrap {
+  position: relative;
+  width:50%;
+  height:100%;
+  margin-right:450px;
+  float:right;
+  display:block;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url("../images/drawings/image1.jpg");
+  background-size:600px;
+
+}
+.slide2 {
+  background-image: url("../images/drawings/image2.jpeg");
+  background-size:900px;
+}
+
+.slide3 {
+  background-image: url("../images/drawings/image3.jpg");
+  background-size:600px;
+}
+
+.slide4 {
+    background-image: url("../images/drawings/image4.jpg");
+    background-size:600px;
+}
+
+.slide5 {
+    background-image: url("../images/drawings/image5.jpg");
+    background-size:600px;
+}
+
+.slide6 {
+    background-image: url("../images/drawings/image6.jpg");
+    background-size:600px;
+}
+
+.slide7 {
+    background-image: url("../images/drawings/image7.jpg");
+    background-size:900px;
+}
+
+.slide8 {
+    background-image: url("../images/drawings/image8.jpg");
+    background-size:600px;
+}
+
+.slide9 {
+    background-image: url("../images/drawings/image9.jpg");
+    background-size:600px;
+}
+
+.slide10 {
+    background-image: url("../images/drawings/image10.jpg");
+    background-size:900px;
+}
+
+.slide11 {
+    background-image: url("../images/drawings/image11.jpg");
+    background-size:600px;
+}
+
+.slide12 {
+    background-image: url("../images/drawings/image12.jpg");
+    background-size:900px;
+}
+
+.slide13 {
+    background-image: url("../images/drawings/image13.jpg");
+    background-size:600px;
+}
+
+.slide14 {
+    background-image: url("../images/drawings/image14.jpeg");
+    background-size:600px;
+}
+
+.slide15{
+    background-image: url("../images/drawings/image15.jpg");
+    background-size:600px;
+}
+
+.slide16 {
+    background-image: url("../images/drawings/image16.jpg");
+    background-size:600px;
+}
+
+.slide17 {
+    background-image: url("../images/drawings/image17.jpg");
+    background-size:600px;
+}
+
+.slide18 {
+    background-image: url("../images/drawings/image18.jpg");
+    background-size:600px;
+}
+
+.slide20 {
+    background-image: url("../images/drawings/image20.jpg");
+    background-size:900px;
+}
+
+.slide21 {
+    background-image: url("../images/drawings/image21.jpg");
+    background-size:600px;
+}
+
+.slide22 {
+    background-image: url("../images/drawings/image22.jpg");
+    background-size:900px;
+}
+
+.slide23 {
+    background-image: url("../images/drawings/image23.jpg");
+    background-size:600px;
+}
+
+.slide24 {
+    background-image: url("../images/drawings/image24.jpg");
+    background-size:600px;
+}
+
+.slide25 {
+    background-image: url("../images/drawings/image25.jpg");
+    background-size:900px;
+}
+
+.slide26 {
+    background-image: url("../images/drawings/image26.jpg");
+    background-size:600px;
+}
+
+.slide27 {
+    background-image: url("../images/drawings/image27.jpg");
+    background-size:900px;
+}
+
+.slide28 {
+    background-image: url("../images/drawings/image28.jpg");
+    background-size:900px;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #F94099 transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #F94099;
+  right: 0;
+  margin-right: 30px;
+}
