@@ -1,22 +1,21 @@
 .nav-container{
-    margin-top:35px;
+    margin-top:50px;
     position:relative;
 }
 
-
 .logo{
     float:left;
-    margin-left:280px;
+    margin-left:400px;
 }
 
 .menu{
     float:right;
-    margin-right:280px;
-    line-height: 70px;
-    font-size: 50px;
+    margin-right:400px;
+    line-height: 90px;
+    font-size: 20px;
     /* text-transform: uppercase; */
-    font-family: "Ms Madi";
-    font-weight: 900;
+    font-family: "Poppins";
+    font-weight: 400;
     text-decoration:none;
     /* z-index:999999; */
     
@@ -25,8 +24,20 @@
 .menu ul li a{
     list-style-type: none;
     text-decoration:none;
-    padding-left:70px;
+    padding-left:50px;
+    /* color:#F94099; */
+}
+
+.current-page{
     color:#F94099;
+}
+
+.not-highlighted:hover{
+    text-decoration:underline;
+}
+
+.not-highlighted{
+    color:#9d9d9d !important;
 }
 
 .menu ul li{
@@ -35,10 +46,9 @@
 
 #image-me{
     float:left;
-    margin-left:350px;
+    margin-left:-150px;
     display:block;
     margin-top:150px;
-
 }
 
 #about-content{

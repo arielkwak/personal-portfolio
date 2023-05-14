@@ -1,5 +1,5 @@
 .nav-container{
-    margin-top:30px;
+    margin-top:50px;
     position:relative;
 }
 
@@ -12,7 +12,7 @@
     float:right;
     margin-right:400px;
     line-height: 90px;
-    font-size: 25px;
+    font-size: 20px;
     /* text-transform: uppercase; */
     font-family: "Poppins";
     font-weight: 400;
@@ -25,7 +25,19 @@
     list-style-type: none;
     text-decoration:none;
     padding-left:50px;
+    /* color:#F94099; */
+}
+
+.current-page{
     color:#F94099;
+}
+
+.not-highlighted:hover{
+    text-decoration:underline;
+}
+
+.not-highlighted{
+    color:#9d9d9d !important;
 }
 
 .menu ul li{
@@ -105,7 +117,7 @@
 
 .card-left{
     margin-left:900px;
-    margin-top:-370px;
+    margin-top:-400px;
 }
 
 .card:hover{
@@ -143,6 +155,34 @@
 
 }
 
+.logo-smaller{
+    width: 150px !important; 
+}
+
+.logo-cafe{
+    margin-top: -10px !important; 
+    width: 80px !important; 
+}
+
+.logo-tp{
+    width: 100px !important; 
+}
+
+.mockup-tp{
+    /* width: 250px !important; 
+    height: 210px !important; */
+    margin-top: -10px;
+    margin-left: 25px !important; 
+}
+
+.mockup-cafe23{
+    width: 350px !important; 
+    height: 320px !important; 
+    margin-left: -25px !important; 
+    margin-top: -10px;
+}
+
+
 .card .circle .project-logo{
     position:relative;
     width:200px;
@@ -157,7 +197,6 @@
 .card:hover .circle .project-logo{
     transform:scale(0);
     transition-delay:0s;
-
 }
 
 .content{
@@ -207,16 +246,10 @@
     transition-delay:0s;
 }
 
-.card .image-bigger{
-    height:350px;
-    margin-top:-120px;
-    margin-left:50px;
-}
-
 .card .image-smaller{
-    height:190px;
-    margin-top:-10px;
-    margin-left:0px;
+    height:300px !important;
+    margin-top:30px;
+    margin-left:10px;
 }
 
 
@@ -226,9 +259,10 @@
     transition-delay:0.5s;
 }
 
-.card .image-right{
-    left:100%;
-    top:57%;
+.card .image-big{
+    height:350px;
+    left:50% !important;
+    top:30%;
 }
 
 .card:hover .image-right{
@@ -272,7 +306,7 @@
 .card .project_image-right{
     position:absolute;
     top:50%;
-    left:85%;
+    left:80%;
     transform:translate(-50%, -50%) scale(0);
     height:250px;
     /* width:100px; */
@@ -281,7 +315,7 @@
 }
 
 .card:hover .project_image-right{
-    left:85%;
+    left:80%;
     transform:translate(-50%, -50%) scale(1);
     transition-delay:0.5s;
 }
@@ -308,218 +342,3 @@ footer{
     clear:both;
 }
 
-.dot3{
-    margin-top:170px;
-}
-
-.drawings p{
-    margin-top:-100px;
-}
-
-.subtitleTwo{
-    float:left;
-}
-
-
-#slider,
-.wrap,
-.slide-content {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
-  height: 100vh;
-  overflow-x: hidden;
-}
-
-#slider{
-  justify-content:center;
-  align-items:center;
-}
-
-.wrap {
-  position: relative;
-  width:50%;
-  height:100%;
-  margin-right:450px;
-  float:right;
-  display:block;
-}
-
-.slide {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.slide1 {
-  background-image: url("../images/drawings/image1.jpg");
-  background-size:600px;
-
-}
-.slide2 {
-  background-image: url("../images/drawings/image2.jpeg");
-  background-size:900px;
-}
-
-.slide3 {
-  background-image: url("../images/drawings/image3.jpg");
-  background-size:600px;
-}
-
-.slide4 {
-    background-image: url("../images/drawings/image4.jpg");
-    background-size:600px;
-}
-
-.slide5 {
-    background-image: url("../images/drawings/image5.jpg");
-    background-size:600px;
-}
-
-.slide6 {
-    background-image: url("../images/drawings/image6.jpg");
-    background-size:600px;
-}
-
-.slide7 {
-    background-image: url("../images/drawings/image7.jpg");
-    background-size:900px;
-}
-
-.slide8 {
-    background-image: url("../images/drawings/image8.jpg");
-    background-size:600px;
-}
-
-.slide9 {
-    background-image: url("../images/drawings/image9.jpg");
-    background-size:600px;
-}
-
-.slide10 {
-    background-image: url("../images/drawings/image10.jpg");
-    background-size:900px;
-}
-
-.slide11 {
-    background-image: url("../images/drawings/image11.jpg");
-    background-size:600px;
-}
-
-.slide12 {
-    background-image: url("../images/drawings/image12.jpg");
-    background-size:900px;
-}
-
-.slide13 {
-    background-image: url("../images/drawings/image13.jpg");
-    background-size:600px;
-}
-
-.slide14 {
-    background-image: url("../images/drawings/image14.jpeg");
-    background-size:600px;
-}
-
-.slide15{
-    background-image: url("../images/drawings/image15.jpg");
-    background-size:600px;
-}
-
-.slide16 {
-    background-image: url("../images/drawings/image16.jpg");
-    background-size:600px;
-}
-
-.slide17 {
-    background-image: url("../images/drawings/image17.jpg");
-    background-size:600px;
-}
-
-.slide18 {
-    background-image: url("../images/drawings/image18.jpg");
-    background-size:600px;
-}
-
-.slide20 {
-    background-image: url("../images/drawings/image20.jpg");
-    background-size:900px;
-}
-
-.slide21 {
-    background-image: url("../images/drawings/image21.jpg");
-    background-size:600px;
-}
-
-.slide22 {
-    background-image: url("../images/drawings/image22.jpg");
-    background-size:900px;
-}
-
-.slide23 {
-    background-image: url("../images/drawings/image23.jpg");
-    background-size:600px;
-}
-
-.slide24 {
-    background-image: url("../images/drawings/image24.jpg");
-    background-size:600px;
-}
-
-.slide25 {
-    background-image: url("../images/drawings/image25.jpg");
-    background-size:900px;
-}
-
-.slide26 {
-    background-image: url("../images/drawings/image26.jpg");
-    background-size:600px;
-}
-
-.slide27 {
-    background-image: url("../images/drawings/image27.jpg");
-    background-size:900px;
-}
-
-.slide28 {
-    background-image: url("../images/drawings/image28.jpg");
-    background-size:900px;
-}
-
-.slide-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.slide-content span {
-  font-size: 5rem;
-  color: #fff;
-}
-
-.arrow {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  margin-top: -35px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-}
-
-#arrow-left {
-  border-width: 30px 40px 30px 0;
-  border-color: transparent #F94099 transparent transparent;
-  left: 0;
-  margin-left: 30px;
-}
-
-#arrow-right {
-  border-width: 30px 0 30px 40px;
-  border-color: transparent transparent transparent #F94099;
-  right: 0;
-  margin-right: 30px;
-}
